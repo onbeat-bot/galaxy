@@ -1,5 +1,0 @@
----
-deployement:
-  task:
-    - export DEPLOYPATH=/home/sisteges/public_html/
-    - /bin/rsync -a --exclude 'index.php' public/ $DEPLOYPATH
